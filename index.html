@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Gather and Graze — Luxury Grazing Tables</title>
+  <meta name="description" content="Gather and Graze designs customised luxury grazing tables for engagements, baby showers, weddings, birthdays, corporate events and anniversaries." />
+  <meta name="theme-color" content="#B1A9DA" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ── Hero / About ─────────────────────────────────────────── -->
+  <header class="hero" id="top">
+    <div class="hero__media" aria-hidden="true">
+      <video class="hero__video" data-hero-video muted loop playsinline autoplay
+             preload="metadata" disablepictureinpicture
+             src="assets/girl-eating-bg.mp4"></video>
+      <span class="hero__media-scrim"></span>
+    </div>
+    <div class="flora" aria-hidden="true" data-flora="hero"></div>
+    <div class="hero__bloom" aria-hidden="true" data-flowers></div>
+
+    <div class="hero__inner">
+      <p class="eyebrow reveal" data-reveal>Luxury grazing tables</p>
+      <h1 class="hero__title reveal" data-reveal>Gather <em>and</em> Graze</h1>
+      <p class="hero__lede reveal" data-reveal>
+        We set up customised luxury grazing tables for your event &mdash; each one
+        composed by hand, styled to your palette, and arranged to be admired
+        before it is enjoyed.
+      </p>
+      <blockquote class="hero__quote reveal" data-reveal>
+        Food is not just about taste; it is about experience, presentation,
+        and the memories we create around it.
+      </blockquote>
+      <a class="btn btn--primary reveal" data-reveal href="#contact">Enquire about your event</a>
+    </div>
+
+    <div class="hero__scroll" aria-hidden="true">
+      <span></span>
+    </div>
+  </header>
+
+  <!-- ── Scroll visual: person eating desserts ────────────────── -->
+  <section class="moment" aria-label="The Gather and Graze experience">
+    <div class="flora" aria-hidden="true" data-flora="moment"></div>
+    <figure class="moment__figure" data-moment>
+      <svg class="moment__art" viewBox="0 0 420 320" role="img"
+           aria-label="Illustration of a guest savouring dessert at a styled grazing table">
+        <defs>
+          <linearGradient id="tablecloth" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stop-color="#FFEDA8" />
+            <stop offset="1" stop-color="#F6DF8E" />
+          </linearGradient>
+        </defs>
+
+        <!-- table -->
+        <rect x="24" y="232" width="372" height="14" rx="7" fill="url(#tablecloth)" />
+        <rect x="24" y="246" width="372" height="52" rx="10" fill="#FAF0E6" />
+        <path d="M24 258h372" stroke="#B1A9DA" stroke-width="2" stroke-dasharray="6 10" />
+
+        <!-- figure -->
+        <g class="figure">
+          <path d="M148 232c0-34 20-56 52-56s52 22 52 56" fill="#B1A9DA" opacity=".85" />
+          <circle cx="200" cy="146" r="30" fill="#F3D9C6" />
+          <path d="M170 142c0-20 13-32 30-32s30 12 30 32c-6-10-16-14-30-14s-24 4-30 14z" fill="#3B3350" />
+          <path d="M186 152c2-3 6-3 8 0M206 152c2-3 6-3 8 0" stroke="#3B3350" stroke-width="2"
+                stroke-linecap="round" fill="none" class="eyes" />
+          <path d="M193 164c4 4 10 4 14 0" stroke="#C0675E" stroke-width="2.5"
+                stroke-linecap="round" fill="none" class="smile" />
+          <!-- arm to plate -->
+          <path d="M236 196c22 0 34 10 40 22" stroke="#B1A9DA" stroke-width="11"
+                stroke-linecap="round" fill="none" />
+        </g>
+
+        <!-- plate with cupcake + fruit skewer -->
+        <g class="plate">
+          <ellipse cx="300" cy="230" rx="46" ry="9" fill="#E8E2F5" />
+          <ellipse cx="300" cy="228" rx="40" ry="7" fill="#FFFFFF" />
+          <path d="M282 226v-18h36v18z" fill="#FFEDA8" />
+          <path d="M280 208a20 14 0 0 1 40 0z" fill="#B1A9DA" />
+          <circle cx="300" cy="196" r="4" fill="#C0675E" />
+          <line x1="318" y1="226" x2="330" y2="200" stroke="#C7BFA6" stroke-width="2.5" />
+          <circle cx="331" cy="197" r="5" fill="#FFEDA8" stroke="#E0CD86" stroke-width="1.5" />
+          <circle cx="337" cy="204" r="4" fill="#C0675E" />
+        </g>
+
+        <!-- floating florals -->
+        <g class="petals" fill="none" stroke="#B1A9DA" stroke-width="2" stroke-linecap="round">
+          <path d="M92 96c8-12 22-12 30 0-8 12-22 12-30 0z" />
+          <path d="M348 78c7-10 19-10 26 0-7 10-19 10-26 0z" />
+          <path d="M62 178c6-9 17-9 23 0-6 9-17 9-23 0z" />
+        </g>
+      </svg>
+
+      <figcaption class="moment__caption reveal" data-reveal>
+        <span class="eyebrow">The moment</span>
+        <p>
+          Guests linger. Phones come out. The table becomes the memory —
+          we style it so the first bite feels like the last detail you have to think about.
+        </p>
+      </figcaption>
+    </figure>
+  </section>
+
+  <!-- ── Menu ─────────────────────────────────────────────────── -->
+  <section class="section menu" id="menu">
+    <div class="flora" aria-hidden="true" data-flora="menu"></div>
+    <header class="section__head reveal" data-reveal>
+      <span class="eyebrow">The menu</span>
+      <h2>Composed to be admired</h2>
+      <p class="section__sub">A considered selection of savoury, sweet and refreshing, arranged as one continuous table.</p>
+    </header>
+
+    <div class="menu__grid">
+      <article class="card reveal" data-reveal>
+        <h3 class="card__title">Savoury &amp; Gourmet</h3>
+        <ul class="card__list">
+          <li>Cucumber &amp; Tomato Stripes</li>
+          <li>Coleslaw Sandwiches</li>
+          <li>Mediterranean Pasta Salad</li>
+          <li>Gourmet Canapés</li>
+          <li>Papdi Chaat</li>
+        </ul>
+      </article>
+
+      <article class="card card--lemon reveal" data-reveal>
+        <h3 class="card__title">Fresh &amp; Sweet</h3>
+        <ul class="card__list">
+          <li>Fresh Fruit Skewers</li>
+          <li>Chocolate Cupcake</li>
+          <li>Rose Tres Leches</li>
+          <li>Biscoff Cheesecake</li>
+          <li>Rasmalai Cups</li>
+          <li>Edible Art</li>
+        </ul>
+      </article>
+
+      <article class="card card--dark reveal" data-reveal>
+        <h3 class="card__title">Beverage</h3>
+        <ul class="card__list">
+          <li>Electric Lagoon</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <!-- ── Occasions ────────────────────────────────────────────── -->
+  <section class="section occasions" id="occasions">
+    <div class="flora" aria-hidden="true" data-flora="occasions"></div>
+    <header class="section__head reveal" data-reveal>
+      <span class="eyebrow">Occasions</span>
+      <h2>Tables we set</h2>
+      <p class="section__sub">Six occasions we cater to, each styled to suit the room and the reason.</p>
+    </header>
+
+    <ul class="occasions__grid">
+      <li class="chip reveal" data-reveal><span class="chip__num">01</span>Engagements</li>
+      <li class="chip reveal" data-reveal><span class="chip__num">02</span>Baby Showers</li>
+      <li class="chip reveal" data-reveal><span class="chip__num">03</span>Weddings</li>
+      <li class="chip reveal" data-reveal><span class="chip__num">04</span>Birthdays</li>
+      <li class="chip reveal" data-reveal><span class="chip__num">05</span>Corporate Events</li>
+      <li class="chip reveal" data-reveal><span class="chip__num">06</span>Anniversaries</li>
+    </ul>
+  </section>
+
+  <!-- ── Contact ──────────────────────────────────────────────── -->
+  <section class="section contact" id="contact">
+    <div class="flora" aria-hidden="true" data-flora="contact"></div>
+    <div class="contact__card reveal" data-reveal>
+      <span class="eyebrow">Contact us</span>
+      <h2>Let&rsquo;s gather</h2>
+      <p class="section__sub">
+        Tell us the date and the occasion and we will design the table around it.
+      </p>
+
+      <div class="contact__actions">
+        <a class="btn btn--primary" href="[Insert Instagram Handle]">
+          <svg viewBox="0 0 24 24" aria-hidden="true" class="icon">
+            <rect x="3" y="3" width="18" height="18" rx="5" />
+            <circle cx="12" cy="12" r="4" />
+            <circle cx="17.2" cy="6.8" r="1.1" fill="currentColor" stroke="none" />
+          </svg>
+          Instagram
+        </a>
+        <a class="btn btn--ghost" href="[Insert WhatsApp Number]">
+          <svg viewBox="0 0 24 24" aria-hidden="true" class="icon">
+            <path d="M12 3a9 9 0 0 0-7.7 13.6L3 21l4.6-1.2A9 9 0 1 0 12 3z" />
+            <path d="M8.8 8.4c.3-.7 1-.7 1.3-.2l.9 1.5c.2.4 0 .7-.3 1-.3.3-.3.5-.1.8.4.7 1.2 1.4 2 1.7.3.1.5 0 .7-.3.3-.4.6-.6 1-.4l1.5.8c.5.3.5 1 0 1.4-1.2 1.1-3.2.6-4.9-1.1s-2.2-3.6-1.1-4.8z" />
+          </svg>
+          WhatsApp
+        </a>
+        <a class="btn btn--ghost" href="[Insert Phone Number]">
+          <svg viewBox="0 0 24 24" aria-hidden="true" class="icon">
+            <path d="M5 4h3.4l1.6 4-2 1.4a12 12 0 0 0 5.6 5.6l1.4-2 4 1.6V19a1.9 1.9 0 0 1-2.1 1.9C10.7 20.2 3.8 13.3 3.1 6.4A1.9 1.9 0 0 1 5 4z" />
+          </svg>
+          Call
+        </a>
+      </div>
+
+      <dl class="contact__meta">
+        <div><dt>Instagram</dt><dd>[Insert Instagram Handle]</dd></div>
+        <div><dt>WhatsApp</dt><dd>[Insert WhatsApp Number]</dd></div>
+        <div><dt>Phone</dt><dd>[Insert Phone Number]</dd></div>
+        <div><dt>Address</dt><dd>[Insert Address]</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="flora" aria-hidden="true" data-flora="footer"></div>
+    <p>Gather and Graze — luxury grazing tables, styled by hand.</p>
+  </footer>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
